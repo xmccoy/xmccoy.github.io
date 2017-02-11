@@ -1,0 +1,138 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+
+
+    html {
+      height: 100%;
+    }
+    body {
+       width: 100%;
+       height: 100%;
+       font-family: fantasy;
+       color: white;
+    }
+
+
+    .backgrounddiv{
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      background-image: url("bgimage.jpeg");
+      background-color:#000000;
+      height: 100%;
+      width: 100%;
+      background-size: cover;
+      z-index: -100;
+      /*opacity: 0.5;
+      filter: alpha(opacity=50);
+*/
+    }
+
+    header {
+        background-color:;
+        padding: 5px;
+        font-size:30px ;
+        display: block;
+        float: left;
+        width: 400px;
+        margin-left: 10%;
+    }
+
+    nav {
+        float: left;
+        padding-left: 10%;
+        padding-top: 4%;
+    }
+
+    nav ul {
+        padding: ;
+        float: left;
+        border-bottom: ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+        font-size: 20px;
+        color: black;
+        border:0px solid white;
+        border-radius: 10px;
+        background-color: white ;
+        margin-left: 4px;
+        opacity: 0.8;
+        /*
+        padding: 3px;*/
+    }
+
+
+    a {
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size:
+
+    }
+
+    section {
+      padding-top: 3%;
+        width: 40%;
+
+        float: left;
+        background-color:;
+        margin-left: 10%;
+        opacity: 50%;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        background-color:;
+        padding:;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 700px;
+        background-color:red;
+        color:;
+        clear: both;
+        display: block;
+    }
+
+    article {
+      float: left;
+      width: 40%;
+    }
+
+    .eventarticle {
+        text-align: center;
+        vertical-align: middle;
+        height: 100%;
+        padding-top: 10%;
+    }
+
+    .button {
+      display: block;
+      height: auto;
+      width: 30%;
+      padding: 10px 12px 8px 12px;
+      vertical-align: middle;
+      font-size: 18px;
+      color: black;
+      border:0px solid white;
+      border-radius: 10px;
+      background-color: white ;
+      margin-left: 30%;
+      opacity: 0.8;
+      /*
+      padding: 3px;*/
+    }
